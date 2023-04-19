@@ -52,6 +52,7 @@ public class PatientController {
     public String editPatient(@RequestParam(name = "id") Long id, Model model){
         Patient patient=patientRepository.findById(id).get();
         model.addAttribute("patient",patient);
+
         return "editPatient";
     }
     @GetMapping("/user")

@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>ma.enset</groupId>
-    <artifactId>hospital-app</artifactId>
+    <artifactId>Hospital-MVC</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>hospital-app</name>
     <description>hospital-app</description>
@@ -86,6 +86,7 @@
             <artifactId>thymeleaf-extras-springsecurity6</artifactId>
             <version>3.1.0.M1</version>
         </dependency>
+
 
         <dependency>
             <groupId>org.springframework.boot</groupId>

@@ -23,4 +23,5 @@ public class Patient {
     private boolean malade;
     @Min(10)
     private int score;
+
 }

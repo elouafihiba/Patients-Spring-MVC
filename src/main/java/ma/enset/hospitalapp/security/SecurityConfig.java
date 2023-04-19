@@ -21,6 +21,7 @@ public class SecurityConfig {
     @Autowired
     private  PasswordEncoder passwordEncoder;
 
+
     @Bean
     public InMemoryUserDetailsManager inMemoryUserDetailsManager(PasswordEncoder passwordEncoder){
         return new InMemoryUserDetailsManager(
